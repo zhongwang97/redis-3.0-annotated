@@ -1,0 +1,1062 @@
+[
+  {
+    "arguments": [
+      "/usr/bin/cc",
+      "-std=c99",
+      "-pedantic",
+      "-Wall",
+      "-O2",
+      "-g",
+      "-ggdb",
+      "-I../deps/hiredis",
+      "-I../deps/linenoise",
+      "-I../deps/lua/src",
+      "-DUSE_JEMALLOC",
+      "-I../deps/jemalloc/include",
+      "-c",
+      "adlist.c"
+    ],
+    "directory": "/home/devbox/code/redis-3.0-annotated/src",
+    "file": "/home/devbox/code/redis-3.0-annotated/src/adlist.c"
+  },
+  {
+    "arguments": [
+      "/usr/bin/cc",
+      "-std=c99",
+      "-pedantic",
+      "-Wall",
+      "-O2",
+      "-g",
+      "-ggdb",
+      "-I../deps/hiredis",
+      "-I../deps/linenoise",
+      "-I../deps/lua/src",
+      "-DUSE_JEMALLOC",
+      "-I../deps/jemalloc/include",
+      "-c",
+      "ae.c"
+    ],
+    "directory": "/home/devbox/code/redis-3.0-annotated/src",
+    "file": "/home/devbox/code/redis-3.0-annotated/src/ae.c"
+  },
+  {
+    "arguments": [
+      "/usr/bin/cc",
+      "-std=c99",
+      "-pedantic",
+      "-Wall",
+      "-O2",
+      "-g",
+      "-ggdb",
+      "-I../deps/hiredis",
+      "-I../deps/linenoise",
+      "-I../deps/lua/src",
+      "-DUSE_JEMALLOC",
+      "-I../deps/jemalloc/include",
+      "-c",
+      "anet.c"
+    ],
+    "directory": "/home/devbox/code/redis-3.0-annotated/src",
+    "file": "/home/devbox/code/redis-3.0-annotated/src/anet.c"
+  },
+  {
+    "arguments": [
+      "/usr/bin/cc",
+      "-std=c99",
+      "-pedantic",
+      "-Wall",
+      "-O2",
+      "-g",
+      "-ggdb",
+      "-I../deps/hiredis",
+      "-I../deps/linenoise",
+      "-I../deps/lua/src",
+      "-DUSE_JEMALLOC",
+      "-I../deps/jemalloc/include",
+      "-c",
+      "dict.c"
+    ],
+    "directory": "/home/devbox/code/redis-3.0-annotated/src",
+    "file": "/home/devbox/code/redis-3.0-annotated/src/dict.c"
+  },
+  {
+    "arguments": [
+      "/usr/bin/cc",
+      "-std=c99",
+      "-pedantic",
+      "-Wall",
+      "-O2",
+      "-g",
+      "-ggdb",
+      "-I../deps/hiredis",
+      "-I../deps/linenoise",
+      "-I../deps/lua/src",
+      "-DUSE_JEMALLOC",
+      "-I../deps/jemalloc/include",
+      "-c",
+      "redis.c"
+    ],
+    "directory": "/home/devbox/code/redis-3.0-annotated/src",
+    "file": "/home/devbox/code/redis-3.0-annotated/src/redis.c"
+  },
+  {
+    "arguments": [
+      "/usr/bin/cc",
+      "-std=c99",
+      "-pedantic",
+      "-Wall",
+      "-O2",
+      "-g",
+      "-ggdb",
+      "-I../deps/hiredis",
+      "-I../deps/linenoise",
+      "-I../deps/lua/src",
+      "-DUSE_JEMALLOC",
+      "-I../deps/jemalloc/include",
+      "-c",
+      "sds.c"
+    ],
+    "directory": "/home/devbox/code/redis-3.0-annotated/src",
+    "file": "/home/devbox/code/redis-3.0-annotated/src/sds.c"
+  },
+  {
+    "arguments": [
+      "/usr/bin/cc",
+      "-std=c99",
+      "-pedantic",
+      "-Wall",
+      "-O2",
+      "-g",
+      "-ggdb",
+      "-I../deps/hiredis",
+      "-I../deps/linenoise",
+      "-I../deps/lua/src",
+      "-DUSE_JEMALLOC",
+      "-I../deps/jemalloc/include",
+      "-c",
+      "zmalloc.c"
+    ],
+    "directory": "/home/devbox/code/redis-3.0-annotated/src",
+    "file": "/home/devbox/code/redis-3.0-annotated/src/zmalloc.c"
+  },
+  {
+    "arguments": [
+      "/usr/bin/cc",
+      "-std=c99",
+      "-pedantic",
+      "-Wall",
+      "-O2",
+      "-g",
+      "-ggdb",
+      "-I../deps/hiredis",
+      "-I../deps/linenoise",
+      "-I../deps/lua/src",
+      "-DUSE_JEMALLOC",
+      "-I../deps/jemalloc/include",
+      "-c",
+      "lzf_c.c"
+    ],
+    "directory": "/home/devbox/code/redis-3.0-annotated/src",
+    "file": "/home/devbox/code/redis-3.0-annotated/src/lzf_c.c"
+  },
+  {
+    "arguments": [
+      "/usr/bin/cc",
+      "-std=c99",
+      "-pedantic",
+      "-Wall",
+      "-O2",
+      "-g",
+      "-ggdb",
+      "-I../deps/hiredis",
+      "-I../deps/linenoise",
+      "-I../deps/lua/src",
+      "-DUSE_JEMALLOC",
+      "-I../deps/jemalloc/include",
+      "-c",
+      "lzf_d.c"
+    ],
+    "directory": "/home/devbox/code/redis-3.0-annotated/src",
+    "file": "/home/devbox/code/redis-3.0-annotated/src/lzf_d.c"
+  },
+  {
+    "arguments": [
+      "/usr/bin/cc",
+      "-std=c99",
+      "-pedantic",
+      "-Wall",
+      "-O2",
+      "-g",
+      "-ggdb",
+      "-I../deps/hiredis",
+      "-I../deps/linenoise",
+      "-I../deps/lua/src",
+      "-DUSE_JEMALLOC",
+      "-I../deps/jemalloc/include",
+      "-c",
+      "pqsort.c"
+    ],
+    "directory": "/home/devbox/code/redis-3.0-annotated/src",
+    "file": "/home/devbox/code/redis-3.0-annotated/src/pqsort.c"
+  },
+  {
+    "arguments": [
+      "/usr/bin/cc",
+      "-std=c99",
+      "-pedantic",
+      "-Wall",
+      "-O2",
+      "-g",
+      "-ggdb",
+      "-I../deps/hiredis",
+      "-I../deps/linenoise",
+      "-I../deps/lua/src",
+      "-DUSE_JEMALLOC",
+      "-I../deps/jemalloc/include",
+      "-c",
+      "zipmap.c"
+    ],
+    "directory": "/home/devbox/code/redis-3.0-annotated/src",
+    "file": "/home/devbox/code/redis-3.0-annotated/src/zipmap.c"
+  },
+  {
+    "arguments": [
+      "/usr/bin/cc",
+      "-std=c99",
+      "-pedantic",
+      "-Wall",
+      "-O2",
+      "-g",
+      "-ggdb",
+      "-I../deps/hiredis",
+      "-I../deps/linenoise",
+      "-I../deps/lua/src",
+      "-DUSE_JEMALLOC",
+      "-I../deps/jemalloc/include",
+      "-c",
+      "sha1.c"
+    ],
+    "directory": "/home/devbox/code/redis-3.0-annotated/src",
+    "file": "/home/devbox/code/redis-3.0-annotated/src/sha1.c"
+  },
+  {
+    "arguments": [
+      "/usr/bin/cc",
+      "-std=c99",
+      "-pedantic",
+      "-Wall",
+      "-O2",
+      "-g",
+      "-ggdb",
+      "-I../deps/hiredis",
+      "-I../deps/linenoise",
+      "-I../deps/lua/src",
+      "-DUSE_JEMALLOC",
+      "-I../deps/jemalloc/include",
+      "-c",
+      "ziplist.c"
+    ],
+    "directory": "/home/devbox/code/redis-3.0-annotated/src",
+    "file": "/home/devbox/code/redis-3.0-annotated/src/ziplist.c"
+  },
+  {
+    "arguments": [
+      "/usr/bin/cc",
+      "-std=c99",
+      "-pedantic",
+      "-Wall",
+      "-O2",
+      "-g",
+      "-ggdb",
+      "-I../deps/hiredis",
+      "-I../deps/linenoise",
+      "-I../deps/lua/src",
+      "-DUSE_JEMALLOC",
+      "-I../deps/jemalloc/include",
+      "-c",
+      "release.c"
+    ],
+    "directory": "/home/devbox/code/redis-3.0-annotated/src",
+    "file": "/home/devbox/code/redis-3.0-annotated/src/release.c"
+  },
+  {
+    "arguments": [
+      "/usr/bin/cc",
+      "-std=c99",
+      "-pedantic",
+      "-Wall",
+      "-O2",
+      "-g",
+      "-ggdb",
+      "-I../deps/hiredis",
+      "-I../deps/linenoise",
+      "-I../deps/lua/src",
+      "-DUSE_JEMALLOC",
+      "-I../deps/jemalloc/include",
+      "-c",
+      "networking.c"
+    ],
+    "directory": "/home/devbox/code/redis-3.0-annotated/src",
+    "file": "/home/devbox/code/redis-3.0-annotated/src/networking.c"
+  },
+  {
+    "arguments": [
+      "/usr/bin/cc",
+      "-std=c99",
+      "-pedantic",
+      "-Wall",
+      "-O2",
+      "-g",
+      "-ggdb",
+      "-I../deps/hiredis",
+      "-I../deps/linenoise",
+      "-I../deps/lua/src",
+      "-DUSE_JEMALLOC",
+      "-I../deps/jemalloc/include",
+      "-c",
+      "util.c"
+    ],
+    "directory": "/home/devbox/code/redis-3.0-annotated/src",
+    "file": "/home/devbox/code/redis-3.0-annotated/src/util.c"
+  },
+  {
+    "arguments": [
+      "/usr/bin/cc",
+      "-std=c99",
+      "-pedantic",
+      "-Wall",
+      "-O2",
+      "-g",
+      "-ggdb",
+      "-I../deps/hiredis",
+      "-I../deps/linenoise",
+      "-I../deps/lua/src",
+      "-DUSE_JEMALLOC",
+      "-I../deps/jemalloc/include",
+      "-c",
+      "object.c"
+    ],
+    "directory": "/home/devbox/code/redis-3.0-annotated/src",
+    "file": "/home/devbox/code/redis-3.0-annotated/src/object.c"
+  },
+  {
+    "arguments": [
+      "/usr/bin/cc",
+      "-std=c99",
+      "-pedantic",
+      "-Wall",
+      "-O2",
+      "-g",
+      "-ggdb",
+      "-I../deps/hiredis",
+      "-I../deps/linenoise",
+      "-I../deps/lua/src",
+      "-DUSE_JEMALLOC",
+      "-I../deps/jemalloc/include",
+      "-c",
+      "db.c"
+    ],
+    "directory": "/home/devbox/code/redis-3.0-annotated/src",
+    "file": "/home/devbox/code/redis-3.0-annotated/src/db.c"
+  },
+  {
+    "arguments": [
+      "/usr/bin/cc",
+      "-std=c99",
+      "-pedantic",
+      "-Wall",
+      "-O2",
+      "-g",
+      "-ggdb",
+      "-I../deps/hiredis",
+      "-I../deps/linenoise",
+      "-I../deps/lua/src",
+      "-DUSE_JEMALLOC",
+      "-I../deps/jemalloc/include",
+      "-c",
+      "replication.c"
+    ],
+    "directory": "/home/devbox/code/redis-3.0-annotated/src",
+    "file": "/home/devbox/code/redis-3.0-annotated/src/replication.c"
+  },
+  {
+    "arguments": [
+      "/usr/bin/cc",
+      "-std=c99",
+      "-pedantic",
+      "-Wall",
+      "-O2",
+      "-g",
+      "-ggdb",
+      "-I../deps/hiredis",
+      "-I../deps/linenoise",
+      "-I../deps/lua/src",
+      "-DUSE_JEMALLOC",
+      "-I../deps/jemalloc/include",
+      "-c",
+      "rdb.c"
+    ],
+    "directory": "/home/devbox/code/redis-3.0-annotated/src",
+    "file": "/home/devbox/code/redis-3.0-annotated/src/rdb.c"
+  },
+  {
+    "arguments": [
+      "/usr/bin/cc",
+      "-std=c99",
+      "-pedantic",
+      "-Wall",
+      "-O2",
+      "-g",
+      "-ggdb",
+      "-I../deps/hiredis",
+      "-I../deps/linenoise",
+      "-I../deps/lua/src",
+      "-DUSE_JEMALLOC",
+      "-I../deps/jemalloc/include",
+      "-c",
+      "t_string.c"
+    ],
+    "directory": "/home/devbox/code/redis-3.0-annotated/src",
+    "file": "/home/devbox/code/redis-3.0-annotated/src/t_string.c"
+  },
+  {
+    "arguments": [
+      "/usr/bin/cc",
+      "-std=c99",
+      "-pedantic",
+      "-Wall",
+      "-O2",
+      "-g",
+      "-ggdb",
+      "-I../deps/hiredis",
+      "-I../deps/linenoise",
+      "-I../deps/lua/src",
+      "-DUSE_JEMALLOC",
+      "-I../deps/jemalloc/include",
+      "-c",
+      "t_list.c"
+    ],
+    "directory": "/home/devbox/code/redis-3.0-annotated/src",
+    "file": "/home/devbox/code/redis-3.0-annotated/src/t_list.c"
+  },
+  {
+    "arguments": [
+      "/usr/bin/cc",
+      "-std=c99",
+      "-pedantic",
+      "-Wall",
+      "-O2",
+      "-g",
+      "-ggdb",
+      "-I../deps/hiredis",
+      "-I../deps/linenoise",
+      "-I../deps/lua/src",
+      "-DUSE_JEMALLOC",
+      "-I../deps/jemalloc/include",
+      "-c",
+      "t_set.c"
+    ],
+    "directory": "/home/devbox/code/redis-3.0-annotated/src",
+    "file": "/home/devbox/code/redis-3.0-annotated/src/t_set.c"
+  },
+  {
+    "arguments": [
+      "/usr/bin/cc",
+      "-std=c99",
+      "-pedantic",
+      "-Wall",
+      "-O2",
+      "-g",
+      "-ggdb",
+      "-I../deps/hiredis",
+      "-I../deps/linenoise",
+      "-I../deps/lua/src",
+      "-DUSE_JEMALLOC",
+      "-I../deps/jemalloc/include",
+      "-c",
+      "t_zset.c"
+    ],
+    "directory": "/home/devbox/code/redis-3.0-annotated/src",
+    "file": "/home/devbox/code/redis-3.0-annotated/src/t_zset.c"
+  },
+  {
+    "arguments": [
+      "/usr/bin/cc",
+      "-std=c99",
+      "-pedantic",
+      "-Wall",
+      "-O2",
+      "-g",
+      "-ggdb",
+      "-I../deps/hiredis",
+      "-I../deps/linenoise",
+      "-I../deps/lua/src",
+      "-DUSE_JEMALLOC",
+      "-I../deps/jemalloc/include",
+      "-c",
+      "t_hash.c"
+    ],
+    "directory": "/home/devbox/code/redis-3.0-annotated/src",
+    "file": "/home/devbox/code/redis-3.0-annotated/src/t_hash.c"
+  },
+  {
+    "arguments": [
+      "/usr/bin/cc",
+      "-std=c99",
+      "-pedantic",
+      "-Wall",
+      "-O2",
+      "-g",
+      "-ggdb",
+      "-I../deps/hiredis",
+      "-I../deps/linenoise",
+      "-I../deps/lua/src",
+      "-DUSE_JEMALLOC",
+      "-I../deps/jemalloc/include",
+      "-c",
+      "config.c"
+    ],
+    "directory": "/home/devbox/code/redis-3.0-annotated/src",
+    "file": "/home/devbox/code/redis-3.0-annotated/src/config.c"
+  },
+  {
+    "arguments": [
+      "/usr/bin/cc",
+      "-std=c99",
+      "-pedantic",
+      "-Wall",
+      "-O2",
+      "-g",
+      "-ggdb",
+      "-I../deps/hiredis",
+      "-I../deps/linenoise",
+      "-I../deps/lua/src",
+      "-DUSE_JEMALLOC",
+      "-I../deps/jemalloc/include",
+      "-c",
+      "aof.c"
+    ],
+    "directory": "/home/devbox/code/redis-3.0-annotated/src",
+    "file": "/home/devbox/code/redis-3.0-annotated/src/aof.c"
+  },
+  {
+    "arguments": [
+      "/usr/bin/cc",
+      "-std=c99",
+      "-pedantic",
+      "-Wall",
+      "-O2",
+      "-g",
+      "-ggdb",
+      "-I../deps/hiredis",
+      "-I../deps/linenoise",
+      "-I../deps/lua/src",
+      "-DUSE_JEMALLOC",
+      "-I../deps/jemalloc/include",
+      "-c",
+      "pubsub.c"
+    ],
+    "directory": "/home/devbox/code/redis-3.0-annotated/src",
+    "file": "/home/devbox/code/redis-3.0-annotated/src/pubsub.c"
+  },
+  {
+    "arguments": [
+      "/usr/bin/cc",
+      "-std=c99",
+      "-pedantic",
+      "-Wall",
+      "-O2",
+      "-g",
+      "-ggdb",
+      "-I../deps/hiredis",
+      "-I../deps/linenoise",
+      "-I../deps/lua/src",
+      "-DUSE_JEMALLOC",
+      "-I../deps/jemalloc/include",
+      "-c",
+      "multi.c"
+    ],
+    "directory": "/home/devbox/code/redis-3.0-annotated/src",
+    "file": "/home/devbox/code/redis-3.0-annotated/src/multi.c"
+  },
+  {
+    "arguments": [
+      "/usr/bin/cc",
+      "-std=c99",
+      "-pedantic",
+      "-Wall",
+      "-O2",
+      "-g",
+      "-ggdb",
+      "-I../deps/hiredis",
+      "-I../deps/linenoise",
+      "-I../deps/lua/src",
+      "-DUSE_JEMALLOC",
+      "-I../deps/jemalloc/include",
+      "-c",
+      "debug.c"
+    ],
+    "directory": "/home/devbox/code/redis-3.0-annotated/src",
+    "file": "/home/devbox/code/redis-3.0-annotated/src/debug.c"
+  },
+  {
+    "arguments": [
+      "/usr/bin/cc",
+      "-std=c99",
+      "-pedantic",
+      "-Wall",
+      "-O2",
+      "-g",
+      "-ggdb",
+      "-I../deps/hiredis",
+      "-I../deps/linenoise",
+      "-I../deps/lua/src",
+      "-DUSE_JEMALLOC",
+      "-I../deps/jemalloc/include",
+      "-c",
+      "sort.c"
+    ],
+    "directory": "/home/devbox/code/redis-3.0-annotated/src",
+    "file": "/home/devbox/code/redis-3.0-annotated/src/sort.c"
+  },
+  {
+    "arguments": [
+      "/usr/bin/cc",
+      "-std=c99",
+      "-pedantic",
+      "-Wall",
+      "-O2",
+      "-g",
+      "-ggdb",
+      "-I../deps/hiredis",
+      "-I../deps/linenoise",
+      "-I../deps/lua/src",
+      "-DUSE_JEMALLOC",
+      "-I../deps/jemalloc/include",
+      "-c",
+      "intset.c"
+    ],
+    "directory": "/home/devbox/code/redis-3.0-annotated/src",
+    "file": "/home/devbox/code/redis-3.0-annotated/src/intset.c"
+  },
+  {
+    "arguments": [
+      "/usr/bin/cc",
+      "-std=c99",
+      "-pedantic",
+      "-Wall",
+      "-O2",
+      "-g",
+      "-ggdb",
+      "-I../deps/hiredis",
+      "-I../deps/linenoise",
+      "-I../deps/lua/src",
+      "-DUSE_JEMALLOC",
+      "-I../deps/jemalloc/include",
+      "-c",
+      "syncio.c"
+    ],
+    "directory": "/home/devbox/code/redis-3.0-annotated/src",
+    "file": "/home/devbox/code/redis-3.0-annotated/src/syncio.c"
+  },
+  {
+    "arguments": [
+      "/usr/bin/cc",
+      "-std=c99",
+      "-pedantic",
+      "-Wall",
+      "-O2",
+      "-g",
+      "-ggdb",
+      "-I../deps/hiredis",
+      "-I../deps/linenoise",
+      "-I../deps/lua/src",
+      "-DUSE_JEMALLOC",
+      "-I../deps/jemalloc/include",
+      "-c",
+      "cluster.c"
+    ],
+    "directory": "/home/devbox/code/redis-3.0-annotated/src",
+    "file": "/home/devbox/code/redis-3.0-annotated/src/cluster.c"
+  },
+  {
+    "arguments": [
+      "/usr/bin/cc",
+      "-std=c99",
+      "-pedantic",
+      "-Wall",
+      "-O2",
+      "-g",
+      "-ggdb",
+      "-I../deps/hiredis",
+      "-I../deps/linenoise",
+      "-I../deps/lua/src",
+      "-DUSE_JEMALLOC",
+      "-I../deps/jemalloc/include",
+      "-c",
+      "crc16.c"
+    ],
+    "directory": "/home/devbox/code/redis-3.0-annotated/src",
+    "file": "/home/devbox/code/redis-3.0-annotated/src/crc16.c"
+  },
+  {
+    "arguments": [
+      "/usr/bin/cc",
+      "-std=c99",
+      "-pedantic",
+      "-Wall",
+      "-O2",
+      "-g",
+      "-ggdb",
+      "-I../deps/hiredis",
+      "-I../deps/linenoise",
+      "-I../deps/lua/src",
+      "-DUSE_JEMALLOC",
+      "-I../deps/jemalloc/include",
+      "-c",
+      "endianconv.c"
+    ],
+    "directory": "/home/devbox/code/redis-3.0-annotated/src",
+    "file": "/home/devbox/code/redis-3.0-annotated/src/endianconv.c"
+  },
+  {
+    "arguments": [
+      "/usr/bin/cc",
+      "-std=c99",
+      "-pedantic",
+      "-Wall",
+      "-O2",
+      "-g",
+      "-ggdb",
+      "-I../deps/hiredis",
+      "-I../deps/linenoise",
+      "-I../deps/lua/src",
+      "-DUSE_JEMALLOC",
+      "-I../deps/jemalloc/include",
+      "-c",
+      "slowlog.c"
+    ],
+    "directory": "/home/devbox/code/redis-3.0-annotated/src",
+    "file": "/home/devbox/code/redis-3.0-annotated/src/slowlog.c"
+  },
+  {
+    "arguments": [
+      "/usr/bin/cc",
+      "-std=c99",
+      "-pedantic",
+      "-Wall",
+      "-O2",
+      "-g",
+      "-ggdb",
+      "-I../deps/hiredis",
+      "-I../deps/linenoise",
+      "-I../deps/lua/src",
+      "-DUSE_JEMALLOC",
+      "-I../deps/jemalloc/include",
+      "-c",
+      "scripting.c"
+    ],
+    "directory": "/home/devbox/code/redis-3.0-annotated/src",
+    "file": "/home/devbox/code/redis-3.0-annotated/src/scripting.c"
+  },
+  {
+    "arguments": [
+      "/usr/bin/cc",
+      "-std=c99",
+      "-pedantic",
+      "-Wall",
+      "-O2",
+      "-g",
+      "-ggdb",
+      "-I../deps/hiredis",
+      "-I../deps/linenoise",
+      "-I../deps/lua/src",
+      "-DUSE_JEMALLOC",
+      "-I../deps/jemalloc/include",
+      "-c",
+      "bio.c"
+    ],
+    "directory": "/home/devbox/code/redis-3.0-annotated/src",
+    "file": "/home/devbox/code/redis-3.0-annotated/src/bio.c"
+  },
+  {
+    "arguments": [
+      "/usr/bin/cc",
+      "-std=c99",
+      "-pedantic",
+      "-Wall",
+      "-O2",
+      "-g",
+      "-ggdb",
+      "-I../deps/hiredis",
+      "-I../deps/linenoise",
+      "-I../deps/lua/src",
+      "-DUSE_JEMALLOC",
+      "-I../deps/jemalloc/include",
+      "-c",
+      "rio.c"
+    ],
+    "directory": "/home/devbox/code/redis-3.0-annotated/src",
+    "file": "/home/devbox/code/redis-3.0-annotated/src/rio.c"
+  },
+  {
+    "arguments": [
+      "/usr/bin/cc",
+      "-std=c99",
+      "-pedantic",
+      "-Wall",
+      "-O2",
+      "-g",
+      "-ggdb",
+      "-I../deps/hiredis",
+      "-I../deps/linenoise",
+      "-I../deps/lua/src",
+      "-DUSE_JEMALLOC",
+      "-I../deps/jemalloc/include",
+      "-c",
+      "rand.c"
+    ],
+    "directory": "/home/devbox/code/redis-3.0-annotated/src",
+    "file": "/home/devbox/code/redis-3.0-annotated/src/rand.c"
+  },
+  {
+    "arguments": [
+      "/usr/bin/cc",
+      "-std=c99",
+      "-pedantic",
+      "-Wall",
+      "-O2",
+      "-g",
+      "-ggdb",
+      "-I../deps/hiredis",
+      "-I../deps/linenoise",
+      "-I../deps/lua/src",
+      "-DUSE_JEMALLOC",
+      "-I../deps/jemalloc/include",
+      "-c",
+      "memtest.c"
+    ],
+    "directory": "/home/devbox/code/redis-3.0-annotated/src",
+    "file": "/home/devbox/code/redis-3.0-annotated/src/memtest.c"
+  },
+  {
+    "arguments": [
+      "/usr/bin/cc",
+      "-std=c99",
+      "-pedantic",
+      "-Wall",
+      "-O2",
+      "-g",
+      "-ggdb",
+      "-I../deps/hiredis",
+      "-I../deps/linenoise",
+      "-I../deps/lua/src",
+      "-DUSE_JEMALLOC",
+      "-I../deps/jemalloc/include",
+      "-c",
+      "crc64.c"
+    ],
+    "directory": "/home/devbox/code/redis-3.0-annotated/src",
+    "file": "/home/devbox/code/redis-3.0-annotated/src/crc64.c"
+  },
+  {
+    "arguments": [
+      "/usr/bin/cc",
+      "-std=c99",
+      "-pedantic",
+      "-Wall",
+      "-O2",
+      "-g",
+      "-ggdb",
+      "-I../deps/hiredis",
+      "-I../deps/linenoise",
+      "-I../deps/lua/src",
+      "-DUSE_JEMALLOC",
+      "-I../deps/jemalloc/include",
+      "-c",
+      "bitops.c"
+    ],
+    "directory": "/home/devbox/code/redis-3.0-annotated/src",
+    "file": "/home/devbox/code/redis-3.0-annotated/src/bitops.c"
+  },
+  {
+    "arguments": [
+      "/usr/bin/cc",
+      "-std=c99",
+      "-pedantic",
+      "-Wall",
+      "-O2",
+      "-g",
+      "-ggdb",
+      "-I../deps/hiredis",
+      "-I../deps/linenoise",
+      "-I../deps/lua/src",
+      "-DUSE_JEMALLOC",
+      "-I../deps/jemalloc/include",
+      "-c",
+      "sentinel.c"
+    ],
+    "directory": "/home/devbox/code/redis-3.0-annotated/src",
+    "file": "/home/devbox/code/redis-3.0-annotated/src/sentinel.c"
+  },
+  {
+    "arguments": [
+      "/usr/bin/cc",
+      "-std=c99",
+      "-pedantic",
+      "-Wall",
+      "-O2",
+      "-g",
+      "-ggdb",
+      "-I../deps/hiredis",
+      "-I../deps/linenoise",
+      "-I../deps/lua/src",
+      "-DUSE_JEMALLOC",
+      "-I../deps/jemalloc/include",
+      "-c",
+      "notify.c"
+    ],
+    "directory": "/home/devbox/code/redis-3.0-annotated/src",
+    "file": "/home/devbox/code/redis-3.0-annotated/src/notify.c"
+  },
+  {
+    "arguments": [
+      "/usr/bin/cc",
+      "-std=c99",
+      "-pedantic",
+      "-Wall",
+      "-O2",
+      "-g",
+      "-ggdb",
+      "-I../deps/hiredis",
+      "-I../deps/linenoise",
+      "-I../deps/lua/src",
+      "-DUSE_JEMALLOC",
+      "-I../deps/jemalloc/include",
+      "-c",
+      "setproctitle.c"
+    ],
+    "directory": "/home/devbox/code/redis-3.0-annotated/src",
+    "file": "/home/devbox/code/redis-3.0-annotated/src/setproctitle.c"
+  },
+  {
+    "arguments": [
+      "/usr/bin/cc",
+      "-std=c99",
+      "-pedantic",
+      "-Wall",
+      "-O2",
+      "-g",
+      "-ggdb",
+      "-I../deps/hiredis",
+      "-I../deps/linenoise",
+      "-I../deps/lua/src",
+      "-DUSE_JEMALLOC",
+      "-I../deps/jemalloc/include",
+      "-c",
+      "blocked.c"
+    ],
+    "directory": "/home/devbox/code/redis-3.0-annotated/src",
+    "file": "/home/devbox/code/redis-3.0-annotated/src/blocked.c"
+  },
+  {
+    "arguments": [
+      "/usr/bin/cc",
+      "-std=c99",
+      "-pedantic",
+      "-Wall",
+      "-O2",
+      "-g",
+      "-ggdb",
+      "-I../deps/hiredis",
+      "-I../deps/linenoise",
+      "-I../deps/lua/src",
+      "-DUSE_JEMALLOC",
+      "-I../deps/jemalloc/include",
+      "-c",
+      "hyperloglog.c"
+    ],
+    "directory": "/home/devbox/code/redis-3.0-annotated/src",
+    "file": "/home/devbox/code/redis-3.0-annotated/src/hyperloglog.c"
+  },
+  {
+    "arguments": [
+      "/usr/bin/cc",
+      "-std=c99",
+      "-pedantic",
+      "-Wall",
+      "-O2",
+      "-g",
+      "-ggdb",
+      "-I../deps/hiredis",
+      "-I../deps/linenoise",
+      "-I../deps/lua/src",
+      "-DUSE_JEMALLOC",
+      "-I../deps/jemalloc/include",
+      "-c",
+      "redis-cli.c"
+    ],
+    "directory": "/home/devbox/code/redis-3.0-annotated/src",
+    "file": "/home/devbox/code/redis-3.0-annotated/src/redis-cli.c"
+  },
+  {
+    "arguments": [
+      "/usr/bin/cc",
+      "-std=c99",
+      "-pedantic",
+      "-Wall",
+      "-O2",
+      "-g",
+      "-ggdb",
+      "-I../deps/hiredis",
+      "-I../deps/linenoise",
+      "-I../deps/lua/src",
+      "-DUSE_JEMALLOC",
+      "-I../deps/jemalloc/include",
+      "-c",
+      "redis-benchmark.c"
+    ],
+    "directory": "/home/devbox/code/redis-3.0-annotated/src",
+    "file": "/home/devbox/code/redis-3.0-annotated/src/redis-benchmark.c"
+  },
+  {
+    "arguments": [
+      "/usr/bin/cc",
+      "-std=c99",
+      "-pedantic",
+      "-Wall",
+      "-O2",
+      "-g",
+      "-ggdb",
+      "-I../deps/hiredis",
+      "-I../deps/linenoise",
+      "-I../deps/lua/src",
+      "-DUSE_JEMALLOC",
+      "-I../deps/jemalloc/include",
+      "-c",
+      "redis-check-dump.c"
+    ],
+    "directory": "/home/devbox/code/redis-3.0-annotated/src",
+    "file": "/home/devbox/code/redis-3.0-annotated/src/redis-check-dump.c"
+  },
+  {
+    "arguments": [
+      "/usr/bin/cc",
+      "-std=c99",
+      "-pedantic",
+      "-Wall",
+      "-O2",
+      "-g",
+      "-ggdb",
+      "-I../deps/hiredis",
+      "-I../deps/linenoise",
+      "-I../deps/lua/src",
+      "-DUSE_JEMALLOC",
+      "-I../deps/jemalloc/include",
+      "-c",
+      "redis-check-aof.c"
+    ],
+    "directory": "/home/devbox/code/redis-3.0-annotated/src",
+    "file": "/home/devbox/code/redis-3.0-annotated/src/redis-check-aof.c"
+  }
+]
